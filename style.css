@@ -1,0 +1,172 @@
+body{
+            background: #124559;
+            margin:0;
+            padding:0;
+}
+
+#header{
+            color:#eff6e0;
+            font-size:50px;
+            font-weight:bold;
+            font-family: 'Aref Ruqaa',serif;
+            text-align:center;
+            border-bottom:2px solid #f3e9d2;
+            margin-bottom: 1%; 
+            text-shadow:5px 5px #9ec1a3;
+}
+#header .logo{
+            position: absolute;
+            top: 0;
+            left:10px;
+            width:6rem;
+            height: 5rem;
+}
+
+
+.navheader{
+            color:#eff6e0;
+            font:32px'Markazi Text',serif;
+            text-align: initial;
+            text-emphasis: none;
+            overflow: hidden;
+        
+}
+
+.child{
+            border-bottom: 2px solid #f3e9d2;
+            margin-bottom: 5%;
+}
+
+#my-paragraph{
+            color:#eff6e0;
+            font: 24px 'Markazi Text',serif;
+            background: #9ec1a3;
+            border-radius: 5px;
+            white-space: nowrap;
+            width:30%;
+            height:5%;
+            padding:10px 5px;
+            text-align: center;
+}
+/* Instgram section*/
+#instgram{
+            position: absolute;
+            bottom:5%;
+            right: 60%;
+
+}
+#instgram:link,:visited {
+            background-color:#1a936f;
+            color: #f3e9d2;
+            border: 2px solid #9ec1a3;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size:24px;
+            font-family: 'Recursive',
+            sans-serif;
+            border-radius: 5px;
+}
+
+#instgram:hover,:active {
+    background:#3b6064;
+    color: #87bba2;
+}
+
+/*Twitter Section*/
+
+#twitter{
+            position: absolute;
+            bottom:5%;
+            right:40%;
+}
+#twitter:link,:visited {
+            background-color:#1a936f;
+            color:#f3e9d2;
+            border: 2px solid #9ec1a3;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size:24px;
+            font-family:'Recursive',sans-serif;
+            border-radius:5px
+}
+
+#twitter:hover,:active {
+    background: #3b6064;
+    color: #87bba2;
+}
+
+/*Qoura Section*/
+
+#quora{
+            position: absolute;
+            bottom:5%;
+            right:25%;
+}
+#quora:link,:visited {
+            background-color:#1a936f;
+            color: #f3e9d2;
+            border: 2px solid #9ec1a3;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size:24px;
+            font-family: 'Recursive',
+            sans-serif;
+            border-radius: 5px;
+}
+#quora:hover,:active {
+            background: #3b6064;
+            color: #87bba2;
+}
+
+/*Github Section*/
+
+#github{
+            position: absolute;
+            bottom:5%;
+            right:8%;
+}
+#github:link,:visited{
+            background-color:#1a936f;
+            color:#f3e9d2;
+            border: 2px solid #9ec1a3;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font: 24px 'Recursive' , sans-serif;
+            border-radius: 5px;
+
+}
+#github:hover,:active{
+            background:#3b6064;
+            color:#87bba2;
+}
+
+.follow-me{
+            color: #9ec1a3;
+            font-family: 'Mada', sans-serif;
+            font-size:24px;
+            position: absolute;
+            bottom:0%;
+
+}
+.copy{
+            color: #9ec1a3;
+            font-size:25px;
+            font-family: 'Mada',  sans-serif;
+            position:absolute;
+            bottom:-7%;
+            
+}
+.follower{
+            width: 64px;
+            height: 64px;
+            position: absolute;
+            left: 8px;
+}
